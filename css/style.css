@@ -4,7 +4,8 @@ h1, h2, h3, p {
 ul, ol {
     list-style-type: none;
     margin: 0;
-    padding-left: 0;}
+    padding-left: 0;
+  }
 h2 {
   font-size: 36px;
   line-height: 1.11;
@@ -67,7 +68,7 @@ align-items: center;
   gap: 40px;
 }
 .list-first-studio{
-    text-decoration: none;
+  text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
@@ -76,19 +77,18 @@ align-items: center;
   padding: 24px 0;
   display:block;
   position: relative;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-first-studio::after {
   content: '';
   width: 100%;
-  position: absolute;
   left: 0;
   bottom: -1px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  position: absolute;
 }
-.list-first, {
+.list-first {
   text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
@@ -97,7 +97,8 @@ align-items: center;
   color: #2e2f42;
   padding: 24px 0;
   display:block;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  transition: background-color 1150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-first:hover, .list-first:focus {
@@ -138,7 +139,6 @@ a {
   color:#434455;
   margin: 0;
   padding: 24px 0;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts:hover, .contacts:focus {
 color: #404bbf
@@ -196,6 +196,16 @@ color: #404bbf
 .stra {
   padding: 120px 0;
 }
+.div-stra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
